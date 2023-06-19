@@ -41878,28 +41878,16 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 180px;
-}
-
-.u-header .u-image-1 {
-  width: 262px;
-  height: 262px;
-  margin: -41px auto 0 -16px;
-}
-
-.u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
+  min-height: 280px;
 }
 
 .u-header .u-menu-1 {
-  margin: -147px 57px 0 auto;
+  margin: 124px 63px 0 auto;
 }
 
 .u-header .u-nav-1 {
   font-weight: 700;
   font-size: 1rem;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -41908,7 +41896,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-list-1 {
   width: 663px;
-  margin: -49px 149px 57px auto;
+  margin: -49px 150px 0 auto;
 }
 
 .u-header .u-repeater-1 {
@@ -41953,36 +41941,56 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 700;
   margin: 0 auto 0 0;
 }
-@media (max-width: 1199px) {
-  .u-header .u-image-1 {
-    margin-left: -16px;
-    width: 262px;
-    height: 262px;
-  }
 
-  .u-header .u-logo-image-1 {
-    max-width: 64px;
-    max-height: 64px;
+.u-header .u-image-1 {
+  width: 279px;
+  height: 279px;
+  margin: -173px auto 1px 0;
+}
+@media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 419px;
   }
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -147px;
+    margin-top: 80px;
+    margin-right: 47px;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 
   .u-header .u-list-1 {
     width: 663px;
-    margin-top: -49px;
-    margin-right: 149px;
+    margin-top: 74px;
+    margin-right: 0;
   }
 
   .u-header .u-repeater-1 {
     min-height: 66px;
   }
+
+  .u-header .u-image-1 {
+    width: 279px;
+    margin-top: -172px;
+    margin-bottom: 60px;
+  }
 }
 @media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 566px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-right: 47px;
+  }
+
   .u-header .u-list-1 {
-    margin-right: 57px;
+    margin-top: 169px;
+    margin-right: auto;
+    margin-left: -23px;
   }
 
   .u-header .u-repeater-1 {
@@ -41990,28 +41998,57 @@ a.u-link.u-text-hover-grey-90:hover {
     grid-auto-columns: calc(50% - 2.5px);
     grid-template-columns: repeat(2, calc(50% - 2.5px));
   }
+
+  .u-header .u-image-1 {
+    margin-top: -552px;
+    margin-bottom: 60px;
+    margin-left: -55px;
+  }
 }
 @media (max-width: 767px) {
-  .u-header .u-image-1 {
-    width: auto;
+  .u-header .u-sheet-1 {
+    min-height: 601px;
   }
 
   .u-header .u-list-1 {
     width: 540px;
+    margin-left: 0;
   }
 
   .u-header .u-repeater-1 {
     grid-auto-columns: calc(100% - 0px);
     grid-template-columns: 100%;
   }
+
+  .u-header .u-image-1 {
+    margin-top: -556px;
+    margin-left: -28px;
+  }
 }
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 640px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: 79px;
+    margin-right: 33px;
+  }
+
   .u-header .u-list-1 {
-    width: 340px;
+    margin-top: 208px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-header .u-repeater-1 {
+    min-height: 277px;
     grid-auto-columns: 100%;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -577px;
   }
 }
  .u-footer {
